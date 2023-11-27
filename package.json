@@ -5,7 +5,10 @@
   "type": "commonjs",
   "exports": {
     ".": "./index.js",
-    "./auto": "./auto.js"
+    "./auto": "./auto.js",
+    "./implementation": "./implementation.js",
+    "./polyfill": "./polyfill.js",
+    "./shim": "./shim.js"
   },
   "scripts": {
     "test": "vite"
@@ -24,6 +27,7 @@
   "homepage": "https://github.com/YannickDot/console.image#readme",
   "devDependencies": {
     "vite": "^5.0.2",
-    "vite-plugin-commonjs": "^0.10.1"
+    "vite-plugin-commonjs": "^0.10.1",
+    "vite-plugin-directory-index": "^3.0.0"
   }
 }
