@@ -11,7 +11,9 @@
     "./shim": "./shim.js"
   },
   "scripts": {
-    "test": "vite"
+    "test": "npm run test:node",
+    "test:node": "node --test",
+    "test:browser": "vite"
   },
   "repository": "github:YannickDot/console.image",
   "keywords": [
