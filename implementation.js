@@ -43,11 +43,11 @@ module.exports = async (url, width = undefined, height = undefined) => {
   console.log(
     "%c%s",
     `color: blue;
-        text-decoration: underline;
-        background: url("${dataURL}");
-        font-size: 0;
-        line-height: ${image?.height}px;
-        padding-right: ${image?.width}px`,
+    text-decoration: underline;
+    background: url("${dataURL}");
+    font-size: 0;
+    line-height: ${image?.height}px;
+    padding-right: ${image?.width}px`,
     url,
   );
 };
