@@ -11,9 +11,9 @@
     "./shim": "./shim.js"
   },
   "scripts": {
-    "test": "npm run test:node",
-    "test:node": "node --test",
-    "test:browser": "vite"
+    "test": "node --test",
+    "dev": "vite",
+    "docs": "serve docs"
   },
   "repository": "github:YannickDot/console.image",
   "keywords": [
@@ -28,6 +28,7 @@
   "bugs": "https://github.com/YannickDot/console.image/issues",
   "homepage": "https://github.com/YannickDot/console.image#readme",
   "devDependencies": {
+    "serve": "^14.2.1",
     "vite": "^5.0.2",
     "vite-plugin-commonjs": "^0.10.1",
     "vite-plugin-directory-index": "^3.0.0"

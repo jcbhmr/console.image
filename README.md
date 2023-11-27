@@ -33,6 +33,8 @@ If you want to use it in the browser and want to go buildless, you can import th
 import ... from "https://esm.run/console.image"
 ```
 
+[⚡ Try the demo page!](https://yannickdot.github.io/console.image/)
+
 ## Usage
 
 ![Browser](https://img.shields.io/static/v1?style=for-the-badge&message=Browser&color=4285F4&logo=Google+Chrome&logoColor=FFFFFF&label=)
