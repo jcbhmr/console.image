@@ -12,7 +12,7 @@ module.exports = async (url, width = undefined, height = undefined) => {
   /** @type {HTMLImageElement} */
   const image = await new Promise((resolve, reject) => {
     const image = new Image();
-    image.crossOrigin = crossOrigin;
+    image.crossOrigin = "";
     image.src = url;
     image.onload = (event) => resolve(event.target);
     image.onerror = (event) => reject(event.error);
@@ -36,7 +36,7 @@ module.exports = async (url, width = undefined, height = undefined) => {
     "%c%s",
     `color: blue;
     text-decoration: underline;
-    background: url("${image.src}");
+    background: url("${dataURL}");
     font-size: 0;
     line-height: ${image.height}px;
     padding-right: ${image.width}px`,
